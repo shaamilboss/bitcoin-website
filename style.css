@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: #42455a;
+}
+
+/*container */
+
+.container{
+	width: 100%;
+	height: 100%;
+}
+
+/*menu on the top */
+
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+}
+
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+}
+
+.menu ul li:hover{
+	color: #19dafa !important;
+	cursor: pointer;
+}
+
+.logo img{
+	width: 40px;
+	margin-top: -10px;
+	margin-right: 40px;
+	filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.signup-btn{
+	position: absolute;
+	top: 40px;
+	right: 80px;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image:linear-gradient(#42455a,#42455a), 
+			   radial-gradient(circle at top left , #fd00da,#19d7f8);
+	background-origin:border-box;
+	background-clip: content-box,border-box;
+}
+
+.signup-btn span{
+	display: block;
+	padding: 8px 22px;
+}
+
+.signup-btn:hover{
+	background: linear-gradient(to right , #fd00da,#19d7f8);
+	border: 2px solid white;
+}
+
+/*banner */
+
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 18%;
+	left: 130px;
+	position: absolute;
+	color: #fff;
+}
+
+/*banner text */
+
+.app-text{
+	width: 50%;
+	float: left;
+}
+
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	margin-left: 40px;
+}
+
+.app-text p{
+	width: 85%;
+	font-size: 15px;
+	margin: 30px 0 30px 40px;
+	line-height: 25px;
+	color: #919191;
+}
+
+/*picture on the right side */
+
+.app-picture{
+	width: 50%;
+	float: right;
+}
+
+.app-picture img{
+	width: 100%;
+	margin-top: -50px;
+	padding-left: 20px;
+}
+
+/*play btn and learn more*/
+
+.play-btn{
+	margin-left: 40px;
+	display: inline-flex;
+
+}
+
+.play-btn-inner{
+	height: 50px;
+	width: 50px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	background-image:linear-gradient(#42455a,#42455a), 
+			   radial-gradient(circle at top left , #fd00da,#19d7f8);
+	background-origin:border-box;
+	background-clip: content-box,border-box;
+	text-align: center;
+}
+
+
+.play-btn .play-btn-inner img {
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+  padding: 18px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+small{
+	margin: auto 20px; 
+	cursor: pointer;
+	font-size: 12px;
+	color: #19dafa;
+}
+
+/*quik-links social media*/
+
+.Quik-links{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(to right,#db1bf6,#19d7f8);
+	color: white;
+}
+
+.Quik-links ul{
+	display: flex;
+	margin: 25px auto;
+	text-align: center;
+}
+
+.li{
+	cursor: pointer;
+	margin: 0 50px;
+}
+
+.li:hover{
+	transform: scale(0.8);
+	color: #19d7f8;
+}
+
+
+
+.social-media{
+	filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+	width: 30px;
+	height: 30px;
+}
